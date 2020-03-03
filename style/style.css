@@ -36,11 +36,27 @@ header {
     background-position: center;
 }
 
+h1 {
+    font-family: 'Playfair Display', Sans Serif;
+    font-size: 5.6rem;
+    font-weight: 700;
+    line-height: 2.6rem;
+    letter-spacing: 0.14rem;
+}
+
+h2 {
+    font-family: 'Playfair Display', Sans Serif;
+    font-size: 4.8rem;
+    font-weight: 700;
+    line-height: 6rem;
+    letter-spacing: 0.12rem;
+}
+
 p {
     font-family: 'Poppins',Sans Serif;
     font-size: 1.4rem;
-    line-height: 30px;
-    letter-spacing: 0.3px;
+    line-height: 3rem;
+    letter-spacing: 0.03rem;
 }
 
 
