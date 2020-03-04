@@ -1,0 +1,14 @@
+.testimonialGallery {
+    display: flex;
+    flex-direction: column;
+    background-color: $background-color;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+
+    ul {
+        display: flex;
+    }
+}

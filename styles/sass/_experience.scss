@@ -1,0 +1,34 @@
+/*********************/
+/* Experience styles */
+/*********************/
+
+.amenities {
+    display: flex;
+    margin-top: 100px;
+}
+
+.amenities h3 {
+    text-align: left;
+}
+
+.amenities li {
+    flex: 1 1 200px;
+
+}
+
+.experience {
+    display: flex;
+    /* margin-left: 15%; */
+}
+
+.experience ul {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 600px;
+    margin-left: 24.7%;
+}
+
+.experience li {
+    display: flex;
+    /* flex-direction: column; */
+}

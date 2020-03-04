@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bootcamp Project 2</title>
-    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./styles/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Poppins:400,600&display=swap" rel="stylesheet"> 
     <script src="https://kit.fontawesome.com/01bfd4ad63.js" crossorigin="anonymous"></script>
 </head>
@@ -40,7 +40,7 @@
     <header class="background">
     </header>
 
-    <section class="">
+    <section class="about wrapper-outer">
         <div class="wrapper-inner about-us">
             <h3>A LITTLE ABOUT US</h3>
             <div class="about-us-content">
@@ -60,35 +60,50 @@
         </div>
     </section>
 
-    <section class="amenities">
+    <section class="amenities wrapper-outer">
         <div class="wrapper-inner experience">
             <ul>
                 <li>                
-                    <div class="test" ><i class="fas fa-sun"></i></div>
-                    <div class="test1">
+                    <h3><i class="fas fa-sun"></i></h3>
+                    <div class="amenities-info">
                         <h3>SUNNY SEASON</h3>
                         <p>Clean design design traveling modern travelblogger cute theme Travel. Website design WordPress webdesign adventure adventure theme.</p>
                     </div>
                 </li>
                 <li>
-                    <h3><i class="fas fa-utensils"></i> FIVE STAR RESTAURANTS</h3>
-                    <p>Clean design design traveling modern travelblogger cute theme Travel. Website design WordPress webdesign adventure adventure theme.</p>
+                    <h3><i class="fas fa-utensils"></i></h3>
+                    <div class="amenites-info">
+                        <h3>FIVE STAR RESTAURANTS</h3>
+                        <p>Clean design design traveling modern travelblogger cute theme Travel. Website design WordPress webdesign adventure adventure theme.</p>
+                    </div>
                 </li>
                 <li>
-                    <h3><i class="fas fa-plane"></i> FLIGHT INCLUDED</h3>
-                    <p>Clean design design traveling modern travelblogger cute theme Travel. Website design WordPress webdesign adventure adventure theme.</p>
+                    <h3><i class="fas fa-plane"></i></h3>
+                    <div class="amenities-info">
+                        <h3>FLIGHT INCLUDED</h3>
+                        <p>Clean design design traveling modern travelblogger cute theme Travel. Website design WordPress webdesign adventure adventure theme.</p>
+                    </div>
                 </li>
                 <li>
-                    <h3><i class="fas fa-glass-martini"></i> ALL INCLUSIVE</h3>
-                    <p>Clean design design traveling modern travelblogger cute theme Travel. Website design WordPress webdesign adventure adventure theme.</p>
+                    <h3><i class="fas fa-glass-martini"></i></h3>
+                    <div class="amenities-info">
+                        <h3>ALL INCLUSIVE</h3>
+                        <p>Clean design design traveling modern travelblogger cute theme Travel. Website design WordPress webdesign adventure adventure theme.</p>
+                    </div>
                 </li>
                 <li>
-                    <h3><i class="fas fa-leaf"></i> GUIDED NATURE EXPEDITIONS</h3>
-                    <p>Clean design design traveling modern travelblogger cute theme Travel. Website design WordPress webdesign adventure adventure theme.</p>
+                    <h3><i class="fas fa-leaf"></i></h3>
+                    <div class="amenities-info">
+                        <h3>GUIDED NATURE EXPEDITIONS</h3>
+                        <p>Clean design design traveling modern travelblogger cute theme Travel. Website design WordPress webdesign adventure adventure theme.</p>
+                    </div>
                 </li>
                 <li>
-                    <h3><i class="fas fa-bell"></i> WAKE UP SERVICES</h3>
-                    <p>Clean design design traveling modern travelblogger cute theme Travel. Website design WordPress webdesign adventure adventure theme.</p>
+                    <h3><i class="fas fa-bell"></i></h3>
+                    <div class="amenities-info">
+                        <h3>WAKE UP SERVICES</h3>
+                        <p>Clean design design traveling modern travelblogger cute theme Travel. Website design WordPress webdesign adventure adventure theme.</p>
+                    </div>
                 </li>
             </ul>
         </div>
@@ -97,8 +112,8 @@
         </div>
     </section>
 
-    <section class="testimonial">
-        <div class="wrapper-inner">
+    <section class="testimonialGallery wrapper-outer">
+        <div class="testimonial wrapper-inner">
             <h3>TESTIMONIAL</h3>
             <h2>What clients say</h2>
             <div class="stars">
@@ -112,15 +127,13 @@
             </div>
             <p><span>Adam Levine</span> - review from <span>TripAdvisor</span></p>
         </div>
-    </section>
 
-    <section class="gallery">
-        <div class="wrapper-inner">
+        <div class=" gallery wrapper-inner">
             <h3>EXPLORE</h3>
             <h2>Gallery</h2>
             <ul>
-                <li><img src="./assets/home-4.jpeg" alt="">Image of tropical leaves</li>
-                <li><img src="./assets/home-5.jpeg" alt="">Image of woman floating on her back in the ocean</li>
+                <li><img src="./assets/home-4.jpeg" alt="Image of tropical leaves"></li>
+                <li><img src="./assets/home-5.jpeg" alt="Image of woman floating on her back in the ocean"></li>
                 <li><img src="./assets/home-6.jpeg" alt="">Image of a ocean wave breaking</li>
                 <li><img src="./assets/home-7.jpeg" alt="">Image of resort chairs on a dock</li>
                 <li><img src="./assets/home-8.jpeg" alt="">Image of an open suitcase with travel related clothing and gear</li>
@@ -144,30 +157,32 @@
         </div>
     </section>
 
-    <footer class="wrapper-main" id="contact">
-        <ul>
-            <li><a href="#home">Site Map</a></li>
-            <li><a href="#about">Terms & Conditions</a></li>
-            <li><a href="#reserve">Privacy Policy</a></li>
-            <li><a href="#reserve">Help</a></li>
-            <li><a href="#reserve">Afilliate</a></li>
-        </ul>
-        <ul>
-            <li><a href="#home">FAQs</a></li>
-            <li><a href="#about">Blog</a></li>
-            <li><a href="#reserve">Location</a></li>
-            <li><a href="#reserve">Press</a></li>
-        </ul>
-
-        <form>
-            <p>Subscribe to our newsletter to stay updated.</p>
-            <div class="containerMail">
-                <input type="text" placeholder="email address" name="mail" required>
-                <input type="submit" value="SUBSCRIBE">
+    <footer class="wrapper-outer" id="contact">
+        <div class="wrapper-inner">
+            <ul>
+                <li><a href="#home">Site Map</a></li>
+                <li><a href="#about">Terms & Conditions</a></li>
+                <li><a href="#reserve">Privacy Policy</a></li>
+                <li><a href="#reserve">Help</a></li>
+                <li><a href="#reserve">Afilliate</a></li>
+            </ul>
+            <ul>
+                <li><a href="#home">FAQs</a></li>
+                <li><a href="#about">Blog</a></li>
+                <li><a href="#reserve">Location</a></li>
+                <li><a href="#reserve">Press</a></li>
+            </ul>
+    
+            <form>
+                <p>Subscribe to our newsletter to stay updated.</p>
+                <div class="containerMail">
+                    <input type="text" placeholder="email address" name="mail" required>
+                    <input type="submit" value="SUBSCRIBE">
+                </div>
+            </form>
+            <div class="copyright">
+                <p>Copyright &copy 2019 HackerYou</p>
             </div>
-        </form>
-        <div class="copyright">
-            <p>Copyright &copy 2019 HackerYou</p>
         </div>
     </footer>
 </body>

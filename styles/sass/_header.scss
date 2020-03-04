@@ -1,0 +1,64 @@
+// Main Page styles
+
+/*********************/
+/* Nav styles */
+/*********************/
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-logo {
+    text-align: center;
+    flex: 1 0 50%;
+} 
+.nav-bar-one {
+	flex: 1 0 25%;
+}
+
+.nav-bar-two {
+    flex: 1 0 25%;
+}
+
+.cart {
+    position: relative;
+}
+
+/* .two {
+    position: absolute;
+    top: 0;
+    right: 0;
+} */
+
+.cart .cirlce-test {
+    /* position: absolute; */
+    /* top: 0; */
+    /* right: 0; */
+    width: 50px;
+    height: 50px;
+    background: red;
+    border-radius: 50%;
+
+}
+
+.nav-bar ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+/*********************/
+/* Header styles */
+/*********************/
+
+header {
+    background-image: url(../assets/home-1.jpeg);
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
