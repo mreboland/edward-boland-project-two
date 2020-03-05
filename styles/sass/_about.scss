@@ -18,6 +18,11 @@
 
 .about-us-content {
     display: flex;
+
+    img {
+        max-height: 416px;
+        max-width: 370px;
+    }
 }
 
 .about-image,
@@ -35,7 +40,13 @@
 .about-image {
     position: relative;
     text-align: right;
-    padding-right: 75px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 100px;
+
+    .circle {
+        border: 10px solid white;
+    }
 }
 
 .about-info h2 {

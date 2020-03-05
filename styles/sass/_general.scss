@@ -7,7 +7,7 @@ body {
 }
 
 .wrapper-inner {
-    max-width: 1366px;
+    max-width: 1280px;
     width: 90%;
     margin: 0 auto;
 }
@@ -57,5 +57,18 @@ ul {
 
 a {
     text-decoration: none;
-    color: black;
+    color: $text-color-main;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+blockquote {
+    font-family: 'Playfair Display', Sans Serif;
+    font-style: italic;
+    font-style: 2.4rem;
+    text-align: center;
+    line-height: 3.6rem;
 }

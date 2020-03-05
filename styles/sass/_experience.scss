@@ -4,7 +4,7 @@
 
 .amenities {
     display: flex;
-    margin-top: 100px;
+    // margin-top: 100px;
 }
 
 .amenities h3 {
@@ -24,11 +24,19 @@
 .experience ul {
     display: flex;
     flex-wrap: wrap;
-    max-width: 600px;
-    margin-left: 24.7%;
+    max-width: 680px;
+    margin-left: 18%;
 }
 
 .experience li {
     display: flex;
     /* flex-direction: column; */
+}
+
+.experience-image {
+    display: flex;
+
+    img {
+        width: auto;
+    }
 }
