@@ -16,8 +16,13 @@
     }
 }
 
+.about-info p {
+    text-align: left;
+}
+
 .about-us-content {
     display: flex;
+    justify-content: center;
 
     img {
         max-height: 416px;
@@ -25,16 +30,15 @@
     }
 }
 
-.about-image,
 .about-info {
-    flex: 1 0 40%;
+    width: 50%;
 }
 
 .about-circle {
     position: absolute;
     /* left: -50px; */
-    bottom: -50px;
-    left: 100px;
+    bottom: -40px;
+    left: -100px;
 }
 
 .about-image {
@@ -42,7 +46,7 @@
     text-align: right;
     display: flex;
     justify-content: flex-end;
-    margin-right: 100px;
+    margin-right: 50px;
 
     .circle {
         border: 10px solid white;

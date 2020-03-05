@@ -3,20 +3,23 @@
 
     .wrapper-outer {
         display: flex;
-        
-        img {
-            width: 100%;
-        }
+    }
+
+    img {
+        max-width: 1075px;
+    }
+
+    .inner-contact {
+    margin-right: 5%;
     }
 }
 
 .contact-info {
     display: flex;
     flex-direction: column;
-    text-align: left;
-    margin: 0 auto;
     justify-content: center;
     align-items: center;
+    width: 75%;
 
     h3 {
         text-align: left;

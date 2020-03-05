@@ -1,5 +1,59 @@
+
 .blog-shift {
+    display: flex;
+    flex-direction: column;
     position: relative;
     top: -150px;
     background-color:white;
+    align-items: center;
+
+    .blog-title {
+        text-align: center;
+        padding-top: 80px;
+
+    }
+}
+.width-limiter {
+    width: 95%;
+}
+
+.blog-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    .author {
+        display: flex;
+        
+        img {
+            border-radius: 50%;
+            width: 50%;
+        }
+    }
+
+    .author-name {
+        margin-left: 20px;
+        text-align: left;
+
+         h3 {
+            text-align: left;
+        }
+    }
+}
+
+.blog-misc ul {
+    display: flex;
+
+    h3 {
+        text-align: left;
+    }
+
+    li {
+        margin: 0 25px;
+    }
+}
+
+.blog-media {
+    display: flex;
+    justify-content: flex-start;
 }
