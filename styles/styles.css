@@ -779,3 +779,68 @@ footer .footer-border {
       -ms-flex-pack: start;
           justify-content: flex-start;
 }
+
+.blog-related .related-gallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.blog-related .related-gallery ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.blog-related .related-gallery li {
+  margin-right: 25px;
+  width: calc((100% - 50px)/ 3);
+}
+
+.blog-related .related-gallery li:nth-child(3) {
+  margin-right: 0;
+}
+
+.blog-comments img {
+  max-width: 70px;
+  max-height: 70px;
+}
+
+.comment-post-one,
+.comment-post-two {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.comment-post-one {
+  margin-bottom: 25px;
+}
+
+.bubble {
+  position: relative;
+  width: 100%;
+  height: 150px;
+  padding: 0px;
+  background: #EDEDED;
+  border-radius: 0px;
+}
+
+.bubble:after {
+  content: '';
+  position: absolute;
+  border-style: solid;
+  border-width: 8px 23px 8px 0;
+  border-color: transparent #EDEDED;
+  display: block;
+  width: 0;
+  z-index: 1;
+  left: -22px;
+  top: 11px;
+}
+
+.comment {
+  margin-left: 25px;
+  padding-left: 25px;
+}
