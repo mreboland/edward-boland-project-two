@@ -287,13 +287,14 @@ h2 {
 
 h3 {
   font-family: 'Poppins',Sans Serif;
-  font-size: 1.6 rem;
+  font-size: 1.6rem;
   font-weight: 600;
   text-align: center;
   letter-spacing: 0.8rem;
 }
 
-p {
+p,
+a {
   font-family: 'Poppins',Sans Serif;
   font-size: 1.4rem;
   line-height: 3rem;
@@ -700,6 +701,65 @@ footer .footer-border {
   padding-bottom: 50px;
 }
 
+footer .copyright {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer .copyright ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .copyright ul li {
+  margin-left: 50px;
+}
+
+footer form {
+  width: 40%;
+}
+
+footer form .footer-form {
+  width: 100%;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  border-bottom: 1 px solid black;
+  background-color: #252424;
+  color: white;
+}
+
+footer form .container-mail {
+  position: relative;
+}
+
+footer form .footer-button {
+  position: absolute;
+  background-color: #252424;
+  color: white;
+  border: none;
+  right: 0;
+}
+
+.blog-background {
+  background-image: url(../assets/blog-1.jpeg);
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 .blog-shift {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -816,6 +876,10 @@ footer .footer-border {
   margin-right: 0;
 }
 
+.blog-comments h2 {
+  border-bottom: 1px solid #CCCCCC;
+}
+
 .blog-comments img {
   max-width: 70px;
   max-height: 70px;
@@ -835,7 +899,6 @@ footer .footer-border {
 .bubble {
   position: relative;
   width: 100%;
-  height: 150px;
   padding: 0px;
   background: #EDEDED;
   border-radius: 0px;
@@ -857,4 +920,54 @@ footer .footer-border {
 .comment {
   margin-left: 25px;
   padding-left: 25px;
+}
+
+.comment-form button {
+  margin-top: 50px;
+  width: 20%;
+  padding: 15px 15px;
+}
+
+.container-comment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container-comment ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container-comment li {
+  width: 100%;
+}
+
+.form2 {
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  width: 90%;
+}
+
+.third-box {
+  width: 100%;
+}
+
+.msg-area {
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  margin-top: 50px;
+  height: 200px;
+}
+
+button {
+  background-color: #84A016;
+  color: white;
 }

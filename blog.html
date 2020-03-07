@@ -35,7 +35,7 @@
         </div>
     </nav>
 
-    <header class="background">
+    <header class="blog-background">
     </header>
 
     <section>
@@ -125,7 +125,7 @@
                 <div class="comment-post-one">
                     <img src="./assets/blog-6.jpeg" alt="">
                     <div class="comment bubble">
-                        <p>Daniel Vandaft - Reply</p>
+                        <p>Daniel Vandaft - <span>Reply</span></p>
                         <p>Pretty excursion website pretty fun excursion excursion fun. Colorful traveler theme blogger fun, website blogger design organized travelblogger.</p>
                         <p class="comment-date">Jul 17, 2015 at 15 hours ago</p>
                     </div>
@@ -133,20 +133,23 @@
                 <div class="comment-post-two">
                     <img src="./assets/blog-7.jpeg" alt="">
                     <div class="comment bubble">
-                        <p>Jenifer Loopz - Reply</p>
+                        <p>Jenifer Loopz - <span>Reply</span></p>
                         <p>Pretty excursion website pretty fun excursion excursion fun. Colorful traveler theme blogger fun, website blogger design organized travelblogger.</p>
                         <p class="comment-date">Jul 17, 2015 at 15 hours ago</p>
                     </div>
                 </div> 
                 <h2>Leave A Comment</h2>               
                 <form class="comment-form">
-                    <p>Sign up to get our newsletter</p>
-                    <div class="container-comment">                      
-                        <input type="text" placeholder="Enter your name..." name="mail" required>
-                        <input type="text" placeholder="youremail@domain.com" name="mail" required>                        
-                        <input type="text" placeholder="Subject (Optional)" name="mail" required>                        
-                        <input type="text" placeholder="Here goes your comment" name="mail" required>
-                        <input type="submit" value="SEND MESSENGER">
+                    <div class="container-comment">
+                        <div class="comment-list">
+                            <ul>
+                                <li><input type="text" class="form2" placeholder="Enter your name..." name="mail" required></li>
+                                <li><input type="text" class="form2" placeholder="youremail@domain.com" name="mail" required>  </li>
+                                <li><input type="text" class="form2 third-box" placeholder="Subject (Optional)" name="mail" required> </li>
+                            </ul>
+                        </div>            
+                        <textarea name="field" id="field" class="msg-area" placeholder="Here goes your message"></textarea>
+                        <button>SEND MESSENGER</button>
                     </div>
                 </form>
             </div>
@@ -154,22 +157,6 @@
         </div>
         </div>
     </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     <footer class="wrapper-outer">
         <div class="wrapper-inner">
@@ -190,14 +177,19 @@
         
                 <form>
                     <p>Sign up to get our newsletter</p>
-                    <div class="containerMail">
-                        <input type="text" placeholder="email address" name="mail" required>
-                        <input type="submit" value="SUBSCRIBE">
+                    <div class="container-mail">
+                        <input type="text" class="footer-form" placeholder="email address" name="mail" required>
+                        <button class="footer-button"><i class="far fa-paper-plane"></i></button>
                     </div>
                 </form>
             </div>
             <div class="copyright">
                 <p>Copyright &copy 2019 HackerYou</p>
+                <ul>
+                    <li><i class="fab fa-facebook-f"></i></li>
+                    <li><i class="fab fa-twitter"></i></li>
+                    <li><i class="fab fa-instagram"></i></li>
+                </ul>
             </div>
         </div>
     </footer>
