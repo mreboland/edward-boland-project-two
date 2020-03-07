@@ -291,6 +291,7 @@ h3 {
   font-weight: 600;
   text-align: center;
   letter-spacing: 0.8rem;
+  color: #999999;
 }
 
 p,
@@ -299,6 +300,8 @@ a {
   font-size: 1.4rem;
   line-height: 3rem;
   letter-spacing: 0.03rem;
+  color: #999999;
+  font-weight: 400;
 }
 
 ul {
@@ -310,6 +313,7 @@ ul {
 a {
   text-decoration: none;
   color: black;
+  font-weight: 600;
 }
 
 img {
@@ -363,19 +367,15 @@ blockquote {
   position: relative;
 }
 
-/* .two {
-    position: absolute;
-    top: 0;
-    right: 0;
-} */
-.cart .cirlce-test {
-  /* position: absolute; */
-  /* top: 0; */
-  /* right: 0; */
-  width: 50px;
-  height: 50px;
-  background: red;
+.two {
+  position: absolute;
+  top: 5px;
+  right: -15px;
+  width: 27px;
+  font-size: 0.9rem;
+  text-align: center;
   border-radius: 50%;
+  background-color: #A4F1DC;
 }
 
 .nav-bar ul {
@@ -420,6 +420,11 @@ header {
 
 .about-us h3 {
   margin-bottom: 100px;
+}
+
+.about-info span {
+  font-weight: 700;
+  color: black;
 }
 
 .about-info p {
@@ -487,15 +492,14 @@ header {
 
 .amenities li {
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 200px;
-          flex: 1 1 200px;
+      -ms-flex: 1 1 250px;
+          flex: 1 1 250px;
 }
 
 .experience {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  /* margin-left: 15%; */
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -515,7 +519,17 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  /* flex-direction: column; */
+}
+
+.experience li h3 {
+  color: black;
+  font-weight: 600;
+  letter-spacing: 0;
+}
+
+.experience li i {
+  font-size: 3rem;
+  margin-right: 20px;
 }
 
 .experience-image {
@@ -548,6 +562,14 @@ header {
           justify-content: center;
 }
 
+.testimonial span {
+  color: black;
+}
+
+.testimonial .name {
+  font-weight: 600;
+}
+
 .test-inner-wrapper {
   text-align: center;
   max-width: 1280px;
@@ -563,6 +585,16 @@ header {
   margin: auto;
 }
 
+blockquote p {
+  font-family: 'Playfair Display', Sans Serif;
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 3.6rem;
+  font-style: italic;
+  text-align: center;
+  color: black;
+}
+
 .stars ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -570,6 +602,10 @@ header {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.stars ul li {
+  color: #F6AB09;
 }
 
 .gallery {
@@ -582,6 +618,10 @@ header {
           flex-direction: column;
   text-align: center;
   margin: 100px auto;
+}
+
+.gallery h2 {
+  margin-top: 0;
 }
 
 .gallery ul {
@@ -657,6 +697,40 @@ header {
 
 .contact-info h3 {
   text-align: left;
+  letter-spacing: 0;
+}
+
+.inner-contact h2:nth-child(2) {
+  margin-top: 0;
+  margin-bottom: 100px;
+}
+
+.inner-contact .country,
+.inner-contact .city {
+  font-size: 2.5rem;
+}
+
+.inner-contact .city {
+  color: black;
+}
+
+.inner-contact .email {
+  color: black;
+  font-weight: 600;
+}
+
+.inner-contact div p {
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+
+.inner-contact div h2 {
+  margin-top: 0;
+}
+
+.inner-contact .phone-number {
+  font-size: 3rem;
+  margin-top: 0;
 }
 
 footer {
@@ -970,4 +1044,85 @@ footer form .footer-button {
 button {
   background-color: #84A016;
   color: white;
+}
+
+.contact-background-header {
+  background-image: url(../assets/contact-1.jpeg);
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.contact-details {
+  width: 50%;
+  margin-bottom: 100px;
+}
+
+.contact-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.contact-list li {
+  border-right: 1px solid #CCCCCC;
+  width: calc(100% / 3);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact-list li p {
+  margin: 0;
+}
+
+.contact-list li h3 {
+  text-align: left;
+}
+
+.contact-list li .contact-unique1 {
+  width: 71%;
+}
+
+.contact-list .contact-unique2 {
+  border-right: none;
+}
+
+.in-touch {
+  margin-bottom: 100px;
+}
+
+.in-touch h2 {
+  margin-bottom: 0;
+}
+
+.contact-button {
+  margin-bottom: 100px;
+  background-color: white;
+  color: black;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+}
+
+.contact-button h3 {
+  margin-bottom: 0;
+}
+
+.secondary-background {
+  background-image: url(../assets/contact-2.jpeg);
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }

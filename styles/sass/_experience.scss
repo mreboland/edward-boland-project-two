@@ -12,13 +12,12 @@
 }
 
 .amenities li {
-    flex: 1 1 200px;
+    flex: 1 1 250px;
 
 }
 
 .experience {
     display: flex;
-    /* margin-left: 15%; */
     align-items: center;
 }
 
@@ -31,7 +30,17 @@
 
 .experience li {
     display: flex;
-    /* flex-direction: column; */
+
+    h3 {
+        color: black;
+        font-weight: 600;
+        letter-spacing: 0;
+    }
+
+    i {
+        font-size: 3rem;
+        margin-right: 20px;
+    }
 }
 
 .experience-image {

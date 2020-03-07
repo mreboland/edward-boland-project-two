@@ -26,22 +26,27 @@
     position: relative;
 }
 
-/* .two {
+.two {
     position: absolute;
-    top: 0;
-    right: 0;
-} */
-
-.cart .cirlce-test {
-    /* position: absolute; */
-    /* top: 0; */
-    /* right: 0; */
-    width: 50px;
-    height: 50px;
-    background: red;
+    top: 5px;
+    right: -15px;
+    width: 27px;
+    font-size: 0.9rem;
+    text-align: center;
     border-radius: 50%;
-
+    background-color: #A4F1DC;
 }
+
+// .circle-test {
+//     position: absolute;
+//     width: 25px;
+//     height: 25px;
+//     background: red;
+//     border-radius: 50%;
+//     top: 0;
+//     right: 0;
+
+// }
 
 .nav-bar ul {
     display: flex;
