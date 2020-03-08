@@ -24,6 +24,11 @@
     width: 95%;
 }
 
+.blog-title span {
+    font-weight: 600;
+    color: black;
+}
+
 .blog-header {
     display: flex;
     justify-content: space-between;
@@ -34,7 +39,6 @@
         
         img {
             border-radius: 50%;
-            width: 50%;
         }
     }
 
@@ -44,6 +48,8 @@
 
         h3 {
             text-align: left;
+            color: black;
+            letter-spacing: normal;
         }
     }
 }
@@ -53,6 +59,8 @@
 
     h3 {
         text-align: left;
+        color: black;
+        letter-spacing: normal;
     }
 
     li {
@@ -60,9 +68,19 @@
     }
 }
 
+.blog-content .bold {
+    color: black;
+    font-weight: 600;
+}
+
 .blog-media {
     display: flex;
     justify-content: flex-start;
+
+    h3 {
+        color: black;
+        letter-spacing: normal;
+    }
 
     ul {
         display: flex;
@@ -72,6 +90,11 @@
     
     li {
         margin: 0 5px 0 5px;
+        color: #CCCCCC;
+
+        &:nth-child(1) {
+            color: #A4F1DC;
+        }
 
     }
 }
@@ -79,7 +102,23 @@
 .blog-related {
 
     .related-gallery {
-        display: flex;        
+        display: flex;
+        
+        div {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            border-bottom: 1px solid #EDEDED;
+
+            h3 {
+                text-align: left;
+                color: black;
+                letter-spacing: normal;
+                text-decoration: underline;
+                text-decoration-color: #CCCCCC;
+                width: 90%;
+            }
+        }
 
         ul {
             display: flex;
@@ -89,7 +128,7 @@
         li {
             margin-right: 25px;
             width: calc((100% - 50px)/ 3);
-            
+
             &:nth-child(3) {
                 margin-right: 0;
             }
@@ -97,8 +136,27 @@
     }
 }
 
+
+.blog-comments {
+    margin-top: 100px;
+
+    .name {
+        color: black;
+    }
+
+    .reply {
+        color: #A4F1DC;
+        font-style: italic;
+    }
+
+    .comment-date {
+        font-size: 1rem;
+        margin-top: 0;
+    }
+}
 .blog-comments h2 {
     border-bottom: 1px solid #CCCCCC;
+    padding-bottom: 25px;
 }
 
 .blog-comments img {
@@ -143,6 +201,10 @@
     padding-left: 25px;
 }
 
+.comment-form {
+    margin-top: 50px;
+}
+
 .comment-form button {
     margin-top: 50px;
     width: 20%;
@@ -168,6 +230,7 @@
     border-top: none;
     border-right: none;
     width: 90%;
+    padding-bottom: 10px;
 }
 
 .third-box {
@@ -180,6 +243,7 @@
     border-right: none;
     margin-top: 50px;
     height: 200px;
+    resize: none;
 }
 
 button {
