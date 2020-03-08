@@ -37,23 +37,15 @@
     background-color: #A4F1DC;
 }
 
-// .circle-test {
-//     position: absolute;
-//     width: 25px;
-//     height: 25px;
-//     background: red;
-//     border-radius: 50%;
-//     top: 0;
-//     right: 0;
-
-// }
-
 .nav-bar ul {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
+.mobile-bar {
+    display: none;
+}
 
 
 /*********************/
