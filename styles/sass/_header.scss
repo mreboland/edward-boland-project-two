@@ -15,7 +15,9 @@
     flex: 1 0 50%;
 } 
 .nav-bar-one {
-	flex: 1 0 25%;
+    flex: 1 0 25%;
+    
+    
 }
 
 .nav-bar-two {
@@ -41,7 +43,13 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-}
+
+    a:hover {
+        color: #CCCCCC;
+    }
+
+    }
+
 
 .mobile-bar {
     display: none;
