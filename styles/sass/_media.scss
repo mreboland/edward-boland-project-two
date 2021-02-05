@@ -60,10 +60,6 @@
         margin-top: 80px;
     }
 
-    footer {
-        height: 70vh;    
-    }
-
     footer form {
         width: 100%;    
     }
@@ -458,7 +454,7 @@
 
 
 }
-@media only screen and (min-width : 690px) and (max-width : 800px) {/*--- Tablet portrait ---*/
+@media only screen and (min-width : 691px) and (max-width : 800px) {/*--- Tablet portrait ---*/
 
 
     .amenities {
@@ -518,6 +514,14 @@
         width: 100%;
     }
 
+    .contact {
+        flex-direction: column;
+    }
+
+    .contact-info {
+        padding-top: 95px;
+    }
+
     .contact-list {
         flex-direction: column;
         align-items: center;
@@ -566,9 +570,31 @@
         margin-bottom: 50px;
         text-align: center;
     }
-
-
+    
 }
+
+
+@media only screen and (min-width : 801px) and (max-width : 1424px) {
+
+    .contact {
+        flex-direction: column;
+
+        img {
+            margin: 0 auto;
+        }
+
+        .inner-contact {
+            margin-right: 0;
+        }
+    }
+
+    .contact-info {
+        padding-top: 95px;
+    }
+}
+
+
+
 @media only screen and (min-width : 768px) and (max-width : 1024px) {/*--- Small tablet landscape ---*/
 
 
@@ -590,15 +616,8 @@
     .experience-image {
         margin: 0 auto;    
     }
-
-    footer {
-        height: 30vh;    
-    }
-
-
-
-
 }
+
 @media only screen and (min-width : 1024px) and (max-width : 1224px) {/*--- Tablet landscape --- */
 
     .amenities {
@@ -618,10 +637,6 @@
 
     .experience-image {
         margin: 0 auto;    
-    }
-
-    footer {
-        height: 40vh;    
     }
 
     .blog-shift {
@@ -663,10 +678,6 @@
         height: 73vh;
     }
 
-    footer {
-        height: 80vh;    
-    }
-
     .blog-shift .blog-title {
         padding-top: 0;    
     }
@@ -691,9 +702,6 @@
 
 @media(max-width: 1280px) and (orientation: landscape) {
 
-    footer {
-        height: 40vh;
-    }
 
 }
 
@@ -701,10 +709,6 @@
 
     header {
         height: 72vh;
-    }
-
-    footer {
-        height: 80vh;    
     }
 
     .blog-shift {
@@ -732,10 +736,6 @@
         height: 76vh;
     }
 
-    footer {
-        height: 80vh;    
-    }
-
     .blog-background {
         height: 76vh;
     }
@@ -750,10 +750,6 @@
 
     header {
         height: 73vh;
-    }
-
-    footer {
-        height: 80vh;    
     }
 
     .blog-background {
